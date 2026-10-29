@@ -1,0 +1,53 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Java & Maven
+target/
+backend-java/target/
+*.class
+*.jar
+*.war
+.m2/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+!*.env.example
+!**/.env.example
+
+# Databases & Local Logs
+*.sqlite
+*.sqlite3
+*.db
+backend/data/*.db
+backend-java/data/*.db
+*.log
+
+# Frontend
+node_modules/
+dist/
+dist-ssr/
+build/
+.npm/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database backups
+backups/
+**/data/backups/

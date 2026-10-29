@@ -1,0 +1,10 @@
+{
+  "api_base_url": "http://127.0.0.1:8080/api/v1",
+  "state_file": "~/.local/state/edusec/collector_cursor.json",
+  "poll_interval_seconds": 2.0,
+  "batch_size": 100,
+  "max_retries": 3,
+  "retry_backoff_base": 1.5,
+  "max_message_chars": 256,
+  "initial_position": "tail"
+}
